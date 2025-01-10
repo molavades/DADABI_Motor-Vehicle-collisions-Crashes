@@ -30,11 +30,13 @@ These datasets provide critical details about the location, time, severity, and 
 - **Data Profiling**: Tools such as **Alteryx** and **ydata profiler** were employed to assess data structure, completeness, and consistency.
 - **Data Staging**: Raw data was transformed into staging tables using **Talend ETL jobs**, ensuring a clean and structured format.
 - **Dimensional Modeling**: Fact and dimension tables were designed with clear **source-to-target mappings** for seamless integration.
+![image](https://github.com/user-attachments/assets/3cc24ac0-dba9-4235-8f0e-380cfa8da7c3)
 
 ### Phase 2: Integration and Transformation
 - **ETL Workflow**: **Talend pipelines** were created to process staging data into the integrated layer.
 - **Validation**: SQL queries ensured the accuracy of transformations and provided explanations for rejected records.
 - **Advanced Modeling**: The inclusion of **Slowly Changing Dimensions (SCDs)** and **Factless Facts** supported additional business requirements.
+![image](https://github.com/user-attachments/assets/45852aa6-bbb5-4c47-9792-053ff6d2974e)
 
 ### Phase 3: Visualizations and Insights
 - **Visualization Tools**: Leveraged **Tableau** and **Power BI** to create interactive dashboards.
